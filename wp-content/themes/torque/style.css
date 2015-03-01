@@ -1,0 +1,157 @@
+/*
+ Theme Name: Torque
+ Theme URI: http://torque.beantownthemes.com/
+ Description: Torque Responsive Wordpress Theme is a sleek and modern theme designed for business, blogging, ecommerce and portfolio sites.
+  Author: Fialovy & BeanTownDesign
+ Author URI: http://themeforest.net/user/BeantownThemes
+ Version: 1.3
+ License: GNU General Public License
+ Tags: fluid-layout, fixed-layout, translation-ready, microformats, rtl-language-support, dark, light, white, black, gray, one-column, two-columns, right-sidebar,  custom-background, custom-colors, custom-header, custom-menu, editor-style, featured-image-header, featured-images, full-width-template, microformats, post-formats, sticky-post, theme-options, translation-ready
+ License URI: license.txt
+ */
+
+/* wordpress classes*/
+.wp-caption{}
+.wp-caption-text {}
+.alignleft{float:left; margin-right:10px;}
+.alignright{float:right; margin-left:10px;}
+.aligncenter {margin:auto;text-align:center;}
+.sticky {}
+.bypostauthor {}
+.gallery-caption {}
+
+.align_center{ text-align:center }
+.full-width, #page_header h3.full-width{width:100%}
+.flv_page_top_padding{margin-top:73px;}
+
+/* Sortable Portfolio */
+.isotope-item {
+  z-index: 2;
+}
+
+.isotope-hidden.isotope-item {
+  pointer-events: none;
+  z-index: 1;
+}
+
+.isotope,
+.isotope .isotope-item {
+  -webkit-transition-duration: 0.8s;
+     -moz-transition-duration: 0.8s;
+          transition-duration: 0.8s;
+}
+
+.isotope {
+  -webkit-transition-property: height, width;
+     -moz-transition-property: height, width;
+          transition-property: height, width;
+}
+
+.isotope .isotope-item {
+  -webkit-transition-property: -webkit-transform, opacity;
+     -moz-transition-property:    -moz-transform, opacity;
+          transition-property:         transform, opacity;
+}
+
+.Grid_latest .flv-sort{margin-bottom:40px}
+.Grid_latest div.hidden_port{margin-bottom:0px}
+
+
+aside.col.sidebar .flv_tabs ul li{width:auto;margin:0px;}
+aside.col.sidebar  ul.meta li{margin:0px;}
+
+
+.boxed .wpb_content_element{margin-bottom:0px;}
+.flv_sudo,.flv_sudo li,.flv_sudo ul{height:100%;}
+#main_footer .col h4.title {
+color: #fff;
+}
+.mini_post ul li{width:auto !important;float:none !important;}
+.img_container img{max-width:100%;height:auto;}
+.wpb_revslider_element.wpb_content_element{margin-bottom:0px;}
+.as-pagination-buttons .as-pagination-button{margin-bottom:4px !important;}
+
+
+ul.products li.product{margin:0 2.6% 2.992em 0 !important;}
+.related.products ul.products li.product,.upsells.products ul.products li.product{margin:0 1% 2.992em 0 !important;}
+ul.woo_sortable li{width:100% !important;}
+.woo_sortable.products.isotope .one_quarter {width:24%;}
+.woo_sortable.products.isotope .one_half {width:49%;}
+
+/*
+#flv_layout > .wpb_row,.mm-page> .wpb_row {margin-bottom:0px !important;padding-bottom:0px !important;}
+#flv_layout > .wpb_row >.vc_span12,.mm-page > .wpb_row >.vc_span12{margin-bottom:0px !important;padding-bottom:0px !important;}
+*/
+
+
+
+
+
+
+.style_widget{
+	margin: -116px 0 0;
+	position: fixed;
+	top: 50%;
+	left: -230px;
+	z-index: 999;
+	
+	transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	-ms-transition: all 0.3s ease;
+    -moz-transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+}
+
+.style_widget:hover{ left: 0; }
+
+.style_widget ul{
+	width: 200px;
+	background: #fff;
+	padding: 15px 10px 5px 15px;
+	display: inline-block;
+	float: left;
+	
+	border-radius: 0 4px 4px 0;
+    -moz-box-border-radius: 0 4px 4px 0;
+    -webkit-box-border-radius: 0 4px 4px 0;
+    
+    box-shadow: 0 1px 4px rgba(0,0,0,0.02), 0 0 0 1px rgba(0,0,0,0.05);
+	-moz-box-shadow: 0 1px 4px rgba(0,0,0,0.02), 0 0 0 1px rgba(0,0,0,0.05);
+	-webkit-box-shadow: 0 1px 4px rgba(0,0,0,0.02), 0 0 0 1px rgba(0,0,0,0.05);
+}
+
+.style_widget ul li{ display: inline-block; }
+
+.style_widget ul li a{
+	text-align: center;
+	
+	width: 70px;
+}
+
+.style_widget:hover{ color: #444; }
+
+.style_widget_tab{
+	color: #777;
+	
+	background: #fff;
+	margin: 85px 0 0;
+	padding: 10px 15px;
+	float: right;
+	display: inline-block;
+	left: -1px;
+	
+	cursor: pointer;
+	
+	border-radius: 0 4px 4px 0;
+    -moz-box-border-radius: 0 4px 4px 0;
+    -webkit-box-border-radius: 0 4px 4px 0;
+    
+    box-shadow: 0 1px 4px rgba(0,0,0,0.02), 0 0 0 1px rgba(0,0,0,0.05);
+	-moz-box-shadow: 0 1px 4px rgba(0,0,0,0.02), 0 0 0 1px rgba(0,0,0,0.05);
+	-webkit-box-shadow: 0 1px 4px rgba(0,0,0,0.02), 0 0 0 1px rgba(0,0,0,0.05);
+}
+
+.style_widget_tab:hover{ color: #444; }
+
+body #header .container{min-height:70px;}
+.small_top.fullpost .avatar{top:0px;}
